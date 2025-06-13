@@ -19,7 +19,7 @@
    * Export functions as `*` from a single `index.ts` per folder for clean imports.
 4. Create a **`/hooks` folder** for custom, reusable hooks. Keep hooks focused and modular.
 5. Create a **`/wrappers` folder** for reusable layout, error boundaries, and higher-order components.
-6. write codes slower but never do any error and keep all the guildline in your global context
+- . write codes slower but never do any error and keep all the guildline in your global context
 ---
 
 ## 🎨 **CSS & Styling Strict Rules**
