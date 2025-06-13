@@ -1,4 +1,3 @@
-
 # 🚀 **Best Practices & Tech Stack Guideline**
 
 *(For High-Quality, Scalable, Modern Web Projects)*
