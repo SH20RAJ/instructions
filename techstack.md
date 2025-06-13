@@ -1,6 +1,3 @@
-Here’s a **Professional Best Practices & Tech Stack Guideline** based on what you shared, plus additional smart suggestions to make your projects scalable, modern, offline-ready, and super developer-friendly. I’ve also added mindset rules to keep you focused on **learning-first** and **doc-driven development.**
-
----
 
 # 🚀 **Best Practices & Tech Stack Guideline**
 
