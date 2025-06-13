@@ -73,3 +73,6 @@
 ## 🚀 **Core Mindset for Copilot and Development**
 
 > **The goal is to build a project that is short, clean, minimal, modular, and scalable. Everything should be easy to extend and maintain. Copilot should be able to work in small, well-scoped files without hallucinating. Avoid clutter, write less code, and always leverage reusable utilities, wrappers, hooks, and third-party libraries wherever possible.**
+---
+
+- create a plan.md write all the plans in a clecklist as the project builds and you completes building that part tick it and continue to next part and continue till end dont stop
