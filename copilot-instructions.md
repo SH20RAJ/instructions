@@ -1,72 +1,90 @@
-Here’s your **updated and complete Copilot system prompt list** with all your new additions clearly structured. You can copy and paste this as your **base prompt template** whenever you start a project with Copilot.
+Here’s your **fully consolidated and advanced Copilot system prompt** with all your detailed preferences, strict rules, and additional suggestions to keep your codebase **clean, minimal, scalable, and Copilot-friendly.**
+I’ve structured it into clear sections and added solutions for the `useState` overload problem you mentioned.
 
 ---
 
-## ✅ Full Copilot System Prompt for Scalable, Clean, and Modular Projects
+# 🔥 **Ultimate Copilot Project Guideline Prompt**
 
-### 📂 **Project Structure & Architecture**
-
-1. Use **Next.js 15 with App Router and Server Actions** for security and simplified backend handling.
-2. Follow **highly modular, scalable folder structures**:
-
-   * Use feature-based folders inside `/components`.
-   * Do not place unrelated components in the same folder.
-3. Create a dedicated **`/constants` folder** for managing all static configurations and reusable constants.
-4. Use **Shadcn UI pure components** for minimal code and good default styling.
-5. Prefer **TailwindCSS utility classes**. Avoid inline JSX CSS whenever possible.
-6. If CSS is required:
-
-   * Define global, reusable classes (like `.card`, `.btn`) in `globals.css`.
-   * Directly apply these classes in JSX instead of writing inline styles to keep code short and readable.
-7. Keep each feature self-contained with its own:
-
-   * Components
-   * Hooks
-   * Utilities
-   * Types
+*(Use this after describing your project idea to Copilot)*
 
 ---
 
-### 📦 **Code Practices**
+## 📂 **Folder Structure & Modularization**
 
-8. Use **SWR (stale-while-revalidate)** for data fetching, caching, and auto-revalidation across the app.
-9. Write **TypeScript with strict type-checking**.
+1. Use **Next.js 15 with App Router and Server Actions** for secure, backend-friendly architecture.
+2. Follow **strict modular folder structures:**
 
-   * Separate all TypeScript types into **dedicated type files** to keep the codebase clean and avoid type clutter.
-   * Avoid unnecessary type gymnastics or complex inline types.
-10. Use **Next.js Server Actions** and native form handling instead of client-side APIs for better security and simpler backend management.
-11. Use **clean, reusable custom hooks** for form logic, data fetching, and side effects.
-12. Prioritize **code generation, config-based rendering, and DRY principles** to reduce repeated code.
-13. Avoid writing large files.
+   * Feature-based folders inside `/components`.
+   * No unrelated components in the same folder.
+   * Create a dedicated `/constants` folder with **deeply nested feature-specific subfolders.**
+     👉 Strictly **no constants, hardcoded values, or JSON directly inside `page.tsx` files.**
+3. If there are **too many functions in `page.tsx`:**
 
-    * Break files into smaller components, utility functions, and hooks.
-14. Generate **light documentation** (minimal inline comments and JSDoc for complex logic) to improve readability without bloating the code.
-
----
-
-### 🧩 **Third-Party Libraries**
-
-15. If a **third-party library** exists to solve a problem (like parsing markdown, handling forms, validation, etc.), always prefer using it over building custom solutions.
-
-    * Example: Use `react-markdown` instead of writing a markdown parser.
-    * Minimize custom implementations to keep the codebase small and efficient.
-16. If a third-party library is added, **import and use it consistently throughout the project.**
+   * Create a separate `/utils` folder with feature-specific subfolders.
+   * Export functions as `*` from a single `index.ts` per folder for clean imports.
+4. Create a **`/hooks` folder** for custom, reusable hooks. Keep hooks focused and modular.
+5. Create a **`/wrappers` folder** for reusable layout, error boundaries, and higher-order components.
 
 ---
 
-### ⚙️ **Optimization Tips**
+## 🎨 **CSS & Styling Strict Rules**
 
-17. Limit unnecessary animations, transitions, and CSS complexities in early stages to keep Copilot focused on backend and structural suggestions.
-18. Always keep Copilot working in **small, local files** to prevent hallucination.
-19. Write highly specific function names and comments to guide Copilot better.
-20. Use auto-generated routes, types, and API handlers to speed up development and reduce manual errors.
+6. Prefer **Shadcn UI pure components** for rapid UI scaffolding and minimal extra code.
+7. Use **TailwindCSS** heavily for styling.
+8. If CSS for a `div` or any element becomes too long and is used globally:
 
----
-
-### 🎯 **Summary: The Goal**
-
-> 👉 **"Our primary goal is to keep the codebase short, effective, clean, scalable, and understandable while using minimal custom code and fully leveraging third-party tools and Copilot suggestions in a modular structure."**
+   * Create reusable classes in `globals.css` (example: `.card`, `.btn`, `.input`).
+   * Or create a separate CSS file for that specific reusable style.
+9. Strictly **no complex inline JSX CSS**. Keep the code short and readable.
+10. Minimize unnecessary animations and CSS complexity to keep Copilot suggestions backend-friendly and accurate.
 
 ---
 
-If you want, I can also help you **convert this into a VSCode Copilot custom instruction** or **create a reusable project README template with these standards.** Just let me know!
+## 🔁 **State Management Best Practices**
+
+11. If a page or component has **too many `useState` hooks:**
+
+* Group related states into a single `useReducer` or a custom `useForm` or `useData` hook.
+* Use form libraries like `react-hook-form` for complex forms to reduce multiple state variables.
+* Minimize scattered state management; prefer local or context-based state over heavy prop drilling.
+
+---
+
+## ⚙️ **Utility & Reusability Standards**
+
+12. Always create **small, reusable utility functions** inside the `/utils` folder.
+13. Use **SWR library** extensively for data fetching, caching, and auto-revalidation.
+14. Strictly avoid large, repetitive code in `page.tsx`. Move handlers like `handleResultClick`, `clearRecentSearches`, and `renderSearchResult` to the `/utils` folder.
+15. Always prefer **wrappers, hooks, and modular utilities** to keep code readable and shorter.
+16. Use third-party libraries wherever possible to minimize custom logic (example: markdown parsers, form validators, etc.).
+
+---
+
+## ✨ **Global Clean Code Practices**
+
+17. Use **TypeScript with strict settings.**
+
+* Keep all types in a separate `/types` folder.
+* No complex inline types or type gymnastics.
+
+18. Use **auto-generated types, routes, and handlers** wherever possible to reduce boilerplate.
+19. Add **light documentation** using JSDoc or TypeScript comments where necessary for clarity, but avoid over-commenting.
+20. Prioritize **code generation, config-driven rendering, and DRY patterns.**
+
+---
+
+## 🚀 **Core Mindset for Copilot and Development**
+
+> **The goal is to build a project that is short, clean, minimal, modular, and scalable. Everything should be easy to extend and maintain. Copilot should be able to work in small, well-scoped files without hallucinating. Avoid clutter, write less code, and always leverage reusable utilities, wrappers, hooks, and third-party libraries wherever possible.**
+
+---
+
+### 🔧 If You Want:
+
+I can help you **convert this into:**
+
+* ✅ A VSCode snippet
+* ✅ A Copilot Labs reusable instruction
+* ✅ A project README template
+
+Let me know how you'd like to save this!
