@@ -19,7 +19,25 @@
    * Export functions as `*` from a single `index.ts` per folder for clean imports.
 4. Create a **`/hooks` folder** for custom, reusable hooks. Keep hooks focused and modular.
 5. Create a **`/wrappers` folder** for reusable layout, error boundaries, and higher-order components.
+## 🚀 **API & Server Actions Architecture**
 
+1. Create a dedicated `/api` folder for:
+   * Server-side functions and data fetching logic
+   * API route handlers and controllers
+   * Database queries and mutations
+
+2. Organize server actions into:
+   * `/actions/[feature]/mutations.ts`
+   * `/actions/[feature]/queries.ts`
+
+3. Keep API-related types in:
+   * `/types/api/requests.ts`
+   * `/types/api/responses.ts`
+
+4. Implement API error handling using:
+   * Custom error classes in `/utils/errors`
+   * Consistent error responses
+   * Type-safe error handling
 ---
 
 ## 🎨 **CSS & Styling Strict Rules**
