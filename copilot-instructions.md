@@ -1,5 +1,3 @@
-
-
 # 🔥 **Ultimate Copilot Project Guideline Prompt**
 
 *(Use this after describing your project idea to Copilot)*
