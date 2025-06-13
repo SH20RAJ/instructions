@@ -1,7 +1,4 @@
-Here’s your **fully consolidated and advanced Copilot system prompt** with all your detailed preferences, strict rules, and additional suggestions to keep your codebase **clean, minimal, scalable, and Copilot-friendly.**
-I’ve structured it into clear sections and added solutions for the `useState` overload problem you mentioned.
 
----
 
 # 🔥 **Ultimate Copilot Project Guideline Prompt**
 
