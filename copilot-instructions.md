@@ -20,7 +20,7 @@
 4. Create a **`/hooks` folder** for custom, reusable hooks. Keep hooks focused and modular.
 5. Create a **`/wrappers` folder** for reusable layout, error boundaries, and higher-order components.
 - . write codes slower but never do any error and keep all the guildline in your global context
-- . use nextjs route grops 
+- . use nextjs route grops to
 ---
 
 ## 🎨 **CSS & Styling Strict Rules**
