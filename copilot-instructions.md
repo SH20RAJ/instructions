@@ -1,5 +1,7 @@
 # 🔥 **Ultimate Copilot Project Guideline Prompt**
 
+docs/copilot-instructions.md
+
 *(Use this after describing your project idea to Copilot)*
 
 ---
