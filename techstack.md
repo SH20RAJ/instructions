@@ -15,7 +15,7 @@
 * ✅ **Cloudflare D1** – Fast, lightweight, serverless SQL DB
 * ✅ **Cloudflare Workers** – Edge Computing
 
-!important: Use the latest version of Next.js and Cloudflare tools to ensure you have the latest features and security updates. and always read the official documentation for any updates or changes. read https://dev.to/sh20raj/cloudflare-d1-drizzle-orm-setup-guide-3oap for more details on setting up Drizzle ORM with Cloudflare D1.more details on setting up Drizzle ORM with Cloudflare D1.
+!important: Use the latest version of Next.js and Cloudflare tools to ensure you have the latest features and security updates. and always read the official documentation for any updates or changes. read https://dev.to/sh20raj/cloudflare-d1-drizzle-orm-setup-guide-3oap for more details on setting up Drizzle ORM with Cloudflare D1.
 
   ```bash
   npm create cloudflare@latest -- my-next-app --framework=next --platform=workers
@@ -119,4 +119,5 @@
 > First, search the official docs.
 > Read → Understand → Implement.
 > Copilot helps, but **docs rule first.**"
-
+> create tests and docs in there respective folders
+not on / route
