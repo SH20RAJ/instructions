@@ -11,7 +11,7 @@
 * ✅ **Tailwind CSS** – Utility-first Styling
 * ✅ **ESLint + Prettier** – Code Linting & Formatting
 * ✅ **Drizzle ORM** – Database Management (Typesafe & Easy) with simplest schema possible so less error prone
-* ✅ **NextJS Server Actions** – 
+* ✅ **NextJS Server Actions** – Secure, server-side form handling and data fetching
 * ✅ **Cloudflare D1** – Fast, lightweight, serverless SQL DB
 * ✅ **Cloudflare Workers** – Edge Computing
 
