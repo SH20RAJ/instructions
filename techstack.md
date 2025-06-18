@@ -15,7 +15,7 @@
 * ✅ **Cloudflare D1** – Fast, lightweight, serverless SQL DB
 * ✅ **Cloudflare Workers** – Edge Computing
 
-
+!import
 
   ```bash
   npm create cloudflare@latest -- my-next-app --framework=next --platform=workers
