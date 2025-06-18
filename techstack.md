@@ -10,7 +10,7 @@
 * ✅ **TypeScript** – Type Safety + Predictability
 * ✅ **Tailwind CSS** – Utility-first Styling
 * ✅ **ESLint + Prettier** – Code Linting & Formatting
-* ✅ **Drizzle ORM** – Database Management (Typesafe & Easy) with simplest schema possible so less error 
+* ✅ **Drizzle ORM** – Database Management (Typesafe & Easy) with simplest schema possible so less error prone
 * ✅ **Cloudflare D1** – Fast, lightweight, serverless SQL DB
 * ✅ **Cloudflare Workers** – Edge Computing
 
