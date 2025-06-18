@@ -15,7 +15,7 @@
 * ✅ **Cloudflare D1** – Fast, lightweight, serverless SQL DB
 * ✅ **Cloudflare Workers** – Edge Computing
 
-!important: Use the latest version of Next.js and Cloudflare tools to ensure you have the latest features and security updates. and always read 
+!important: Use the latest version of Next.js and Cloudflare tools to ensure you have the latest features and security updates. and always read the official documentation for any updates or changes.
 
   ```bash
   npm create cloudflare@latest -- my-next-app --framework=next --platform=workers
