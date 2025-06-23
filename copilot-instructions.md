@@ -70,6 +70,20 @@ docs/copilot-instructions.md
 19. Add **light documentation** using JSDoc or TypeScript comments where necessary for clarity, but avoid over-commenting.
 20. Prioritize **code generation, config-driven rendering, and DRY patterns.**
 
+## 🔄 **Data Fetching Strategy**
+
+21. Prioritize **Server-Side Data Fetching:**
+
+* Use Server Components and `getServerSideProps` / Server Actions for initial data fetching
+* Leverage ISR (Incremental Static Regeneration) for semi-dynamic content
+* Only use client-side fetching (SWR/useEffect) when:
+   - Data needs real-time updates
+   - User-specific interactions require it
+   - Interactive features depend on current client state
+* Implement proper caching strategies with Next.js cache() function
+* Use route handlers for API endpoints when necessary
+
+
 ---
 
 ## 🚀 **Core Mindset for Copilot and Development**
