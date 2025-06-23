@@ -84,6 +84,7 @@ docs/copilot-instructions.md
 * Use route handlers for API endpoints when necessary
 
 
+
 ---
 
 ## 🚀 **Core Mindset for Copilot and Development**
