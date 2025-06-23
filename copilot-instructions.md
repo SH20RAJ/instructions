@@ -5,7 +5,7 @@ docs/copilot-instructions.md
 *(Use this after describing your project idea to Copilot)*
 
 ---
-> Note :- Always Prioritize SEO 
+> Note :- Always Prioritize SEO - proper meta
 
 ## 📂 **Folder Structure & Modularization**
 
