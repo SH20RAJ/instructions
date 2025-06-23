@@ -82,7 +82,7 @@ docs/copilot-instructions.md
    - Interactive features depend on current client state
 * Implement proper caching strategies with Next.js cache() function
 * Use route handlers for API endpoints when necessary
-* where seo 
+* where seo is reuired 
 
 
 ---
