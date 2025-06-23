@@ -5,7 +5,7 @@ docs/copilot-instructions.md
 *(Use this after describing your project idea to Copilot)*
 
 ---
-> Note :- Always Prioritize SEO - proper metadata, structured data, and server-side rendering for SEO-critical pages. Use client-side fetching only when necessary for interactivity or real-time updates. JSONLD and PWA for structured data and performance optimization. use sharp image library for 
+> Note :- Always Prioritize SEO - proper metadata, structured data, and server-side rendering for SEO-critical pages. Use client-side fetching only when necessary for interactivity or real-time updates. JSONLD and PWA for structured data and performance optimization. use sharp image library for image generation.
 
 ## 📂 **Folder Structure & Modularization**
 
