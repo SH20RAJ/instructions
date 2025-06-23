@@ -6,8 +6,7 @@ docs/copilot-instructions.md
 
 ---
 
-> Note :- Always Prioritize SEO - proper metadata, structured data, and server-side rendering for SEO-critical pages. Use client-side fetching only when necessary for interactivity or real-time updates. JSONLD and PWA for structured data and performance optimization. use sharp image library for image generation.
-
+> Note :- Always Prioritize SEO - proper metadata, structured data, and server-side rendering for SEO-critical pages. Use client-side fetching only when necessary for interactivity or real-time updates. JSONLD and PWA for structured data and performance optimization. use sharp image library for image generation. 
 ## 📂 **Folder Structure & Modularization**
 
 1. Use **Next.js 15 with App Router and Server Actions** for secure, backend-friendly architecture.
