@@ -74,7 +74,7 @@ docs/copilot-instructions.md
 
 21. Prioritize **Server-Side Data Fetching:**
 
-* Use Server Components and `getServerSideProps` / Server Actions for initial data fetching
+* Use Server Components and ssr / Server Actions for initial data fetching
 * Leverage ISR (Incremental Static Regeneration) for semi-dynamic content
 * Only use client-side fetching (SWR/useEffect) when:
    - Data needs real-time updates
