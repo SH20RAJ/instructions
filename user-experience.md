@@ -204,6 +204,3 @@ Absolutely. Here's a curated and **battle-tested list of “God-Level UX Princip
 * Progress-based unlocks
 * Adaptive onboarding (skip if experienced)
 
----
-
-Want these as a **Notion doc**, interactive website, or React component library? I can help you generate it as a reference. Just say the word.
